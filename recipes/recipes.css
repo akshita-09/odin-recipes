@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Schibsted+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Roboto:wght@300&family=Schibsted+Grotesk&display=swap");
+
+body {
+  background-color: rgb(255, 255, 0);
+  padding: none;
+}
+.recipe-title {
+  position: relative;
+  font-family: "Anton", sans-serif;
+  font-weight: 900;
+  font-size: 5rem;
+  letter-spacing: 0.5rem;
+  z-index: 2;
+  margin-top: 1rem;
+}
+.pink-shadow-text {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  text-shadow: 2rem 1.5rem rgb(255, 107, 107);
+  z-index: 2;
+}
+.subheading {
+  font-family: "Anton", sans-serif;
+  font-size: 3rem;
+  border-bottom: solid 1rem rgb(255, 107, 107);
+  width: 30%;
+}
+.text {
+  font-family: "Anton", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-family: "Schibsted Grotesk", sans-serif;
+  font-size: 1.2rem;
+}
+body img {
+  position: relative;
+  margin-top: -5rem;
+  display: block;
+  max-width: 80vw;
+  max-height: 100vh;
+  width: 100vw;
+  height: 100vh;
+  filter: grayscale(100%);
+}
